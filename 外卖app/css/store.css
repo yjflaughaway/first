@@ -1,0 +1,281 @@
+@import url("base.css");/*导入默认CSS样式表*/
+header {
+	width: 100%;
+	height: 3.65rem;
+	/*background: #ccc;*/
+}
+.head {
+	width: 100%;
+	height: 1.78rem;
+	background: red;
+}
+.head-img {
+	width: 100%;
+	height: 1.78rem;
+	opacity: 0.85;
+	position: relative;
+}
+.goto{
+	width: 6.98rem;
+	height: .5rem;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: .26rem;
+	/*background: palevioletred;*/
+}
+.goto i {
+	float: left;
+	color: #fff;
+	font-size: .14rem;
+	line-height: .5rem;
+}
+#two {
+	color: #fff;
+	font-size: .2rem;
+	float: right;
+	margin-right: .2rem;
+}
+
+
+.store-img {
+	width: 1.7rem;
+	height: 1.13rem;
+	float: left;
+	position: absolute;
+	left: 2.9rem;
+	top: 1.05rem;
+}
+.word1 {
+	width: 3rem;
+	height: .23rem;
+	margin: auto;
+	margin-top: .13rem;
+	color: #000;
+	font-size: .28rem;
+}
+.word2 {
+	width: 3.5rem;
+	height: .23rem;
+	margin: auto;
+	margin-top: .13rem;
+	color: #000;
+	font-size: .12rem;
+	opacity: 0.5;
+}
+.lq-a{
+	display: block;
+	width: 1.65rem;
+	height: .49rem;
+	margin: auto;
+	margin-top: -.5rem;
+}
+.lq {
+	width: 1.65rem;
+	height: .49rem;
+	
+
+}
+.word3 {
+	width: 5rem;
+	height: .23rem;
+	margin: auto;
+	margin-top: .51rem;
+	color: #000;
+	font-size: .12rem;
+	opacity: 0.5;
+}
+.fen-ge {
+	width: 100%;
+	height: .25rem;
+	background: rgb(220,220,220);
+}
+.compare {
+	width: 100%;
+	height: 1.28rem;
+	display: flex;
+	justify-content: space-around;
+}
+.compare a {
+	display: block;
+	width: .83rem;
+	height: .39rem;
+	margin-top: .47rem;
+	text-align: center;
+	line-height: .39rem;
+	border-radius: .19rem;
+	font-size: .24rem;
+	font-weight: 100;
+	color: #000;
+	text-decoration: none;
+	background: rgba(255,138,81,0.75);
+}
+.compare a.order {
+	color: #FFFFFF;
+	background: rgba(255,138,81);
+}
+/*商品信息*/
+.store-info {
+	width: 100%;
+	display: flex;
+}
+.infol {
+	width: 1.87rem;
+	height: 100%;
+}
+.infol li {
+	width: 1.63rem;
+	height: .88rem;
+	text-align: center;
+	line-height: .88rem;
+	margin-left: .24rem;
+	margin-bottom: .0rem;
+	font-size: .24rem;
+	background: rgb(242,242,242);
+}
+.infol li.choice {
+	color: #FFFFFF;
+	background: rgb(246,54,129);
+}
+.infor {
+	flex: 1;
+	height: 100%;
+	/*display: flex;*/
+}
+.infor li {
+	margin-left: .24rem;
+	width: 5.63rem;
+	height: 1.6rem;
+	margin-bottom: .15rem;
+	border-bottom: 1px solid rgb(234,234,234);
+}
+.infor-l {
+	width: 1.66rem;
+	height: 100%;
+	float: left;
+}
+.infor-l a {
+	display: block;
+}
+.infor-l a img {
+	width: 1.66rem;
+	height: 1.46rem;
+}
+.infor-r {
+	float: right;
+	width: 3.97rem;
+	height: 100%;
+}
+.infor-r p {
+	font-size: .24rem;
+	margin-left: .15rem;
+}
+.infor-r p.r-word1 {
+	color: #000000;
+	opacity: 0.8;
+}
+.infor-r p.r-word2 {
+	margin-top: .24rem;
+	font-size: .18rem;
+	color: rgb(0,0,0,0.3);
+}
+.money{
+	width: 3.44rem;
+	height: .41rem;
+	margin-top: .5rem;
+}
+.money p.r-word3 {
+	
+	font-size: .2rem;
+	color: rgb(255,138,81);
+	float: left;
+}
+.money p.r-word4 {
+	font-size: .24rem;
+	color: rgb(255,138,81);
+	float: left;
+	margin-left: .015rem;
+}
+.money {
+	width: .41rem;
+	height: .41rem;
+	display: flex;
+	margin-top: .35rem;
+}
+.money a {
+	display: block;
+	width: .41rem;
+	height: .41rem;
+	float: right;
+	margin-left: 1.7rem;
+	margin-bottom: -.1rem;
+}
+.money a img {
+	width: .41rem;
+	height: .41rem;
+	margin-bottom: 1.3rem;
+
+}
+
+/*新用户下单*/
+.newuser {
+	width: 7.5rem;
+	height: .44rem;
+	text-align: center;
+	line-height: .44rem;
+	font-size: .18rem;
+	background: rgb(248,181,81);
+}
+/*购物车*/
+.buy-car {
+	width: 7.5rem;
+	height: .98rem;
+	display: flex;
+}
+.buy-carl {
+	width: 5.12rem;
+	height: 100%;
+	background: rgb(51,51,51);
+}
+
+.car {
+	display: block;
+	width: .88rem;
+	height: .88rem;
+	margin-left: .24rem;
+	margin-top: -.3rem;
+}
+.car img{
+	width: .88rem;
+	height: .88rem;
+}
+.buy-carl p {
+	font-size: .2rem;
+	color: rgb(255,255,255);
+	opacity: 0.7;
+	margin-left: 1.26rem;
+	margin-bottom: .1rem;
+}
+.buy-carl p.p {
+	margin-top: -.4rem;
+}
+.buy-carr {
+	flex: 1;
+	height: 100%;
+	background: rgb(255,138,81);
+	text-align: center;
+	line-height: .4rem;
+}
+.buy-carr a {
+	text-decoration: none;
+}
+.buy-carr p {
+	font-size: .2rem;
+	color: rgb(255,255,255);
+	opacity: 0.7;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
